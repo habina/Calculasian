@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DSViewController : UIViewController
-
+@interface DSViewController : UIViewController <UITextFieldDelegate>
+@property(nonatomic,retain) UIImageView *bgView;
 @end

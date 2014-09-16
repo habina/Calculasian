@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FF611DEB19A69B0300987EB1"
-               BuildableName = "A Cappella.app"
-               BlueprintName = "A Cappella"
-               ReferencedContainer = "container:A Cappella.xcodeproj">
+               BuildableName = "Calculasian.app"
+               BlueprintName = "Calculasian"
+               ReferencedContainer = "container:Calculasian.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FF611E0C19A69B0300987EB1"
-               BuildableName = "A CappellaTests.xctest"
-               BlueprintName = "A CappellaTests"
-               ReferencedContainer = "container:A Cappella.xcodeproj">
+               BuildableName = "CalculasianTests.xctest"
+               BlueprintName = "CalculasianTests"
+               ReferencedContainer = "container:Calculasian.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF611DEB19A69B0300987EB1"
-            BuildableName = "A Cappella.app"
-            BlueprintName = "A Cappella"
-            ReferencedContainer = "container:A Cappella.xcodeproj">
+            BuildableName = "Calculasian.app"
+            BlueprintName = "Calculasian"
+            ReferencedContainer = "container:Calculasian.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF611DEB19A69B0300987EB1"
-            BuildableName = "A Cappella.app"
-            BlueprintName = "A Cappella"
-            ReferencedContainer = "container:A Cappella.xcodeproj">
+            BuildableName = "Calculasian.app"
+            BlueprintName = "Calculasian"
+            ReferencedContainer = "container:Calculasian.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF611DEB19A69B0300987EB1"
-            BuildableName = "A Cappella.app"
-            BlueprintName = "A Cappella"
-            ReferencedContainer = "container:A Cappella.xcodeproj">
+            BuildableName = "Calculasian.app"
+            BlueprintName = "Calculasian"
+            ReferencedContainer = "container:Calculasian.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

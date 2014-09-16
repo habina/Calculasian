@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CB229670705452FA0B73A1F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D35F455513F481491CE064A /* libPods.a */; };
+		FF52961E19A6FE580002E13B /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52961719A6FE580002E13B /* icon1.png */; };
+		FF52961F19A6FE580002E13B /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52961819A6FE580002E13B /* icon2.png */; };
+		FF52962019A6FE580002E13B /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52961919A6FE580002E13B /* icon3.png */; };
+		FF52962119A6FE580002E13B /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52961A19A6FE580002E13B /* icon4.png */; };
+		FF52962219A6FE580002E13B /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52961B19A6FE580002E13B /* icon5.png */; };
+		FF52962319A6FE580002E13B /* icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52961C19A6FE580002E13B /* icon6.png */; };
+		FF52962419A6FE580002E13B /* icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52961D19A6FE580002E13B /* icon7.png */; };
+		FF52962919A6FE790002E13B /* a1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52962519A6FE790002E13B /* a1.png */; };
+		FF52962A19A6FE790002E13B /* a2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52962619A6FE790002E13B /* a2.png */; };
+		FF52962B19A6FE790002E13B /* a3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52962719A6FE790002E13B /* a3.png */; };
+		FF52962C19A6FE790002E13B /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF52962819A6FE790002E13B /* backGround.jpg */; };
+		FF52963119A6FE860002E13B /* a5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52962E19A6FE860002E13B /* a5.png */; };
+		FF52963619A6FFF00002E13B /* a4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52963519A6FFF00002E13B /* a4.png */; };
+		FF52963819A7006A0002E13B /* a6.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52963719A7006A0002E13B /* a6.png */; };
 		FF611DF019A69B0300987EB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF611DEF19A69B0300987EB1 /* Foundation.framework */; };
 		FF611DF219A69B0300987EB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF611DF119A69B0300987EB1 /* CoreGraphics.framework */; };
 		FF611DF419A69B0300987EB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF611DF319A69B0300987EB1 /* UIKit.framework */; };
@@ -21,6 +36,13 @@
 		FF611E1119A69B0300987EB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF611DF319A69B0300987EB1 /* UIKit.framework */; };
 		FF611E1919A69B0300987EB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF611E1719A69B0300987EB1 /* InfoPlist.strings */; };
 		FF611E1B19A69B0300987EB1 /* A_CappellaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF611E1A19A69B0300987EB1 /* A_CappellaTests.m */; };
+		FFEDBAD619A6EE6B003F2895 /* btSimpleSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEDBAD319A6EE6B003F2895 /* btSimpleSideMenu.m */; };
+		FFEDBAD719A6EE6B003F2895 /* btSimpleMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEDBAD519A6EE6B003F2895 /* btSimpleMenuItem.m */; };
+		FFEDBAD919A6EF0F003F2895 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEDBAD819A6EF0F003F2895 /* Accelerate.framework */; };
+		FFEDBADB19A6EF16003F2895 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEDBADA19A6EF16003F2895 /* QuartzCore.framework */; };
+		FFF2747D19A88BFC002D8CA4 /* Snip20140823_23_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF2747A19A88BFC002D8CA4 /* Snip20140823_23_58x58.png */; };
+		FFF2747E19A88BFC002D8CA4 /* Snip20140823_23_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF2747B19A88BFC002D8CA4 /* Snip20140823_23_80x80.png */; };
+		FFF2747F19A88BFC002D8CA4 /* Snip20140823_23_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF2747C19A88BFC002D8CA4 /* Snip20140823_23_120x120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +56,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF611DEC19A69B0300987EB1 /* A Cappella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Cappella.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FBD0BE24454965982CAA3E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8D35F455513F481491CE064A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF52961719A6FE580002E13B /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		FF52961819A6FE580002E13B /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		FF52961919A6FE580002E13B /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		FF52961A19A6FE580002E13B /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		FF52961B19A6FE580002E13B /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		FF52961C19A6FE580002E13B /* icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon6.png; sourceTree = "<group>"; };
+		FF52961D19A6FE580002E13B /* icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7.png; sourceTree = "<group>"; };
+		FF52962519A6FE790002E13B /* a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a1.png; sourceTree = "<group>"; };
+		FF52962619A6FE790002E13B /* a2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a2.png; sourceTree = "<group>"; };
+		FF52962719A6FE790002E13B /* a3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a3.png; sourceTree = "<group>"; };
+		FF52962819A6FE790002E13B /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
+		FF52962E19A6FE860002E13B /* a5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a5.png; sourceTree = "<group>"; };
+		FF52963519A6FFF00002E13B /* a4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a4.png; sourceTree = "<group>"; };
+		FF52963719A7006A0002E13B /* a6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a6.png; sourceTree = "<group>"; };
+		FF611DEC19A69B0300987EB1 /* Calculasian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculasian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF611DEF19A69B0300987EB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF611DF119A69B0300987EB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FF611DF319A69B0300987EB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FF611DF719A69B0300987EB1 /* A Cappella-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A Cappella-Info.plist"; sourceTree = "<group>"; };
+		FF611DF719A69B0300987EB1 /* Calculasian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculasian-Info.plist"; sourceTree = "<group>"; };
 		FF611DF919A69B0300987EB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF611DFB19A69B0300987EB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF611DFD19A69B0300987EB1 /* A Cappella-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A Cappella-Prefix.pch"; sourceTree = "<group>"; };
+		FF611DFD19A69B0300987EB1 /* Calculasian-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculasian-Prefix.pch"; sourceTree = "<group>"; };
 		FF611DFE19A69B0300987EB1 /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
 		FF611DFF19A69B0300987EB1 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
 		FF611E0219A69B0300987EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF611E0419A69B0300987EB1 /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
 		FF611E0519A69B0300987EB1 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 		FF611E0719A69B0300987EB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FF611E0D19A69B0300987EB1 /* A CappellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A CappellaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF611E0D19A69B0300987EB1 /* CalculasianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculasianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF611E0E19A69B0300987EB1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FF611E1619A69B0300987EB1 /* A CappellaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A CappellaTests-Info.plist"; sourceTree = "<group>"; };
+		FF611E1619A69B0300987EB1 /* CalculasianTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculasianTests-Info.plist"; sourceTree = "<group>"; };
 		FF611E1819A69B0300987EB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF611E1A19A69B0300987EB1 /* A_CappellaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_CappellaTests.m; sourceTree = "<group>"; };
+		FFEDBAD219A6EE6B003F2895 /* btSimpleSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btSimpleSideMenu.h; sourceTree = "<group>"; };
+		FFEDBAD319A6EE6B003F2895 /* btSimpleSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btSimpleSideMenu.m; sourceTree = "<group>"; };
+		FFEDBAD419A6EE6B003F2895 /* btSimpleMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btSimpleMenuItem.h; sourceTree = "<group>"; };
+		FFEDBAD519A6EE6B003F2895 /* btSimpleMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btSimpleMenuItem.m; sourceTree = "<group>"; };
+		FFEDBAD819A6EF0F003F2895 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FFEDBADA19A6EF16003F2895 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FFF2747A19A88BFC002D8CA4 /* Snip20140823_23_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20140823_23_58x58.png; sourceTree = "<group>"; };
+		FFF2747B19A88BFC002D8CA4 /* Snip20140823_23_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20140823_23_80x80.png; sourceTree = "<group>"; };
+		FFF2747C19A88BFC002D8CA4 /* Snip20140823_23_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20140823_23_120x120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +107,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEDBADB19A6EF16003F2895 /* QuartzCore.framework in Frameworks */,
+				FFEDBAD919A6EF0F003F2895 /* Accelerate.framework in Frameworks */,
 				FF611DF219A69B0300987EB1 /* CoreGraphics.framework in Frameworks */,
 				FF611DF419A69B0300987EB1 /* UIKit.framework in Frameworks */,
 				FF611DF019A69B0300987EB1 /* Foundation.framework in Frameworks */,
+				5CB229670705452FA0B73A1F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,21 +129,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF52961619A6FE580002E13B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2747A19A88BFC002D8CA4 /* Snip20140823_23_58x58.png */,
+				FFF2747B19A88BFC002D8CA4 /* Snip20140823_23_80x80.png */,
+				FFF2747C19A88BFC002D8CA4 /* Snip20140823_23_120x120.png */,
+				FF52962E19A6FE860002E13B /* a5.png */,
+				FF52963519A6FFF00002E13B /* a4.png */,
+				FF52962519A6FE790002E13B /* a1.png */,
+				FF52963719A7006A0002E13B /* a6.png */,
+				FF52962619A6FE790002E13B /* a2.png */,
+				FF52962719A6FE790002E13B /* a3.png */,
+				FF52962819A6FE790002E13B /* backGround.jpg */,
+				FF52961719A6FE580002E13B /* icon1.png */,
+				FF52961819A6FE580002E13B /* icon2.png */,
+				FF52961919A6FE580002E13B /* icon3.png */,
+				FF52961A19A6FE580002E13B /* icon4.png */,
+				FF52961B19A6FE580002E13B /* icon5.png */,
+				FF52961C19A6FE580002E13B /* icon6.png */,
+				FF52961D19A6FE580002E13B /* icon7.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		FF611DE319A69B0300987EB1 = {
 			isa = PBXGroup;
 			children = (
+				FF52961619A6FE580002E13B /* images */,
 				FF611DF519A69B0300987EB1 /* A Cappella */,
 				FF611E1419A69B0300987EB1 /* A CappellaTests */,
 				FF611DEE19A69B0300987EB1 /* Frameworks */,
 				FF611DED19A69B0300987EB1 /* Products */,
+				14FBD0BE24454965982CAA3E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		FF611DED19A69B0300987EB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF611DEC19A69B0300987EB1 /* A Cappella.app */,
-				FF611E0D19A69B0300987EB1 /* A CappellaTests.xctest */,
+				FF611DEC19A69B0300987EB1 /* Calculasian.app */,
+				FF611E0D19A69B0300987EB1 /* CalculasianTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +177,13 @@
 		FF611DEE19A69B0300987EB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFEDBADA19A6EF16003F2895 /* QuartzCore.framework */,
+				FFEDBAD819A6EF0F003F2895 /* Accelerate.framework */,
 				FF611DEF19A69B0300987EB1 /* Foundation.framework */,
 				FF611DF119A69B0300987EB1 /* CoreGraphics.framework */,
 				FF611DF319A69B0300987EB1 /* UIKit.framework */,
 				FF611E0E19A69B0300987EB1 /* XCTest.framework */,
+				8D35F455513F481491CE064A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +191,10 @@
 		FF611DF519A69B0300987EB1 /* A Cappella */ = {
 			isa = PBXGroup;
 			children = (
+				FFEDBAD219A6EE6B003F2895 /* btSimpleSideMenu.h */,
+				FFEDBAD319A6EE6B003F2895 /* btSimpleSideMenu.m */,
+				FFEDBAD419A6EE6B003F2895 /* btSimpleMenuItem.h */,
+				FFEDBAD519A6EE6B003F2895 /* btSimpleMenuItem.m */,
 				FF611DFE19A69B0300987EB1 /* DSAppDelegate.h */,
 				FF611DFF19A69B0300987EB1 /* DSAppDelegate.m */,
 				FF611E0119A69B0300987EB1 /* Main.storyboard */,
@@ -126,10 +209,10 @@
 		FF611DF619A69B0300987EB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF611DF719A69B0300987EB1 /* A Cappella-Info.plist */,
+				FF611DF719A69B0300987EB1 /* Calculasian-Info.plist */,
 				FF611DF819A69B0300987EB1 /* InfoPlist.strings */,
 				FF611DFB19A69B0300987EB1 /* main.m */,
-				FF611DFD19A69B0300987EB1 /* A Cappella-Prefix.pch */,
+				FF611DFD19A69B0300987EB1 /* Calculasian-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +229,7 @@
 		FF611E1519A69B0300987EB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF611E1619A69B0300987EB1 /* A CappellaTests-Info.plist */,
+				FF611E1619A69B0300987EB1 /* CalculasianTests-Info.plist */,
 				FF611E1719A69B0300987EB1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,26 +238,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF611DEB19A69B0300987EB1 /* A Cappella */ = {
+		FF611DEB19A69B0300987EB1 /* Calculasian */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF611E1E19A69B0300987EB1 /* Build configuration list for PBXNativeTarget "A Cappella" */;
+			buildConfigurationList = FF611E1E19A69B0300987EB1 /* Build configuration list for PBXNativeTarget "Calculasian" */;
 			buildPhases = (
+				55703F1CE0CE45A696051098 /* Check Pods Manifest.lock */,
 				FF611DE819A69B0300987EB1 /* Sources */,
 				FF611DE919A69B0300987EB1 /* Frameworks */,
 				FF611DEA19A69B0300987EB1 /* Resources */,
+				4F3F6989FB6D4DE5A8D56567 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "A Cappella";
+			name = Calculasian;
 			productName = "A Cappella";
-			productReference = FF611DEC19A69B0300987EB1 /* A Cappella.app */;
+			productReference = FF611DEC19A69B0300987EB1 /* Calculasian.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FF611E0C19A69B0300987EB1 /* A CappellaTests */ = {
+		FF611E0C19A69B0300987EB1 /* CalculasianTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF611E2119A69B0300987EB1 /* Build configuration list for PBXNativeTarget "A CappellaTests" */;
+			buildConfigurationList = FF611E2119A69B0300987EB1 /* Build configuration list for PBXNativeTarget "CalculasianTests" */;
 			buildPhases = (
 				FF611E0919A69B0300987EB1 /* Sources */,
 				FF611E0A19A69B0300987EB1 /* Frameworks */,
@@ -185,9 +270,9 @@
 			dependencies = (
 				FF611E1319A69B0300987EB1 /* PBXTargetDependency */,
 			);
-			name = "A CappellaTests";
+			name = CalculasianTests;
 			productName = "A CappellaTests";
-			productReference = FF611E0D19A69B0300987EB1 /* A CappellaTests.xctest */;
+			productReference = FF611E0D19A69B0300987EB1 /* CalculasianTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +290,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF611DE719A69B0300987EB1 /* Build configuration list for PBXProject "A Cappella" */;
+			buildConfigurationList = FF611DE719A69B0300987EB1 /* Build configuration list for PBXProject "Calculasian" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +303,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF611DEB19A69B0300987EB1 /* A Cappella */,
-				FF611E0C19A69B0300987EB1 /* A CappellaTests */,
+				FF611DEB19A69B0300987EB1 /* Calculasian */,
+				FF611E0C19A69B0300987EB1 /* CalculasianTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +314,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF52963619A6FFF00002E13B /* a4.png in Resources */,
+				FFF2747F19A88BFC002D8CA4 /* Snip20140823_23_120x120.png in Resources */,
+				FF52962B19A6FE790002E13B /* a3.png in Resources */,
+				FF52962A19A6FE790002E13B /* a2.png in Resources */,
 				FF611E0819A69B0300987EB1 /* Images.xcassets in Resources */,
+				FF52962C19A6FE790002E13B /* backGround.jpg in Resources */,
+				FF52961F19A6FE580002E13B /* icon2.png in Resources */,
+				FF52962219A6FE580002E13B /* icon5.png in Resources */,
+				FF52963119A6FE860002E13B /* a5.png in Resources */,
+				FF52963819A7006A0002E13B /* a6.png in Resources */,
+				FF52962019A6FE580002E13B /* icon3.png in Resources */,
 				FF611DFA19A69B0300987EB1 /* InfoPlist.strings in Resources */,
+				FF52961E19A6FE580002E13B /* icon1.png in Resources */,
+				FF52962419A6FE580002E13B /* icon7.png in Resources */,
+				FF52962919A6FE790002E13B /* a1.png in Resources */,
 				FF611E0319A69B0300987EB1 /* Main.storyboard in Resources */,
+				FFF2747D19A88BFC002D8CA4 /* Snip20140823_23_58x58.png in Resources */,
+				FF52962119A6FE580002E13B /* icon4.png in Resources */,
+				FF52962319A6FE580002E13B /* icon6.png in Resources */,
+				FFF2747E19A88BFC002D8CA4 /* Snip20140823_23_80x80.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +347,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F3F6989FB6D4DE5A8D56567 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55703F1CE0CE45A696051098 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF611DE819A69B0300987EB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -252,7 +387,9 @@
 			files = (
 				FF611DFC19A69B0300987EB1 /* main.m in Sources */,
 				FF611E0619A69B0300987EB1 /* DSViewController.m in Sources */,
+				FFEDBAD719A6EE6B003F2895 /* btSimpleMenuItem.m in Sources */,
 				FF611E0019A69B0300987EB1 /* DSAppDelegate.m in Sources */,
+				FFEDBAD619A6EE6B003F2895 /* btSimpleSideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +406,7 @@
 /* Begin PBXTargetDependency section */
 		FF611E1319A69B0300987EB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF611DEB19A69B0300987EB1 /* A Cappella */;
+			target = FF611DEB19A69B0300987EB1 /* Calculasian */;
 			targetProxy = FF611E1219A69B0300987EB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -374,26 +511,30 @@
 		};
 		FF611E1F19A69B0300987EB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14FBD0BE24454965982CAA3E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "A Cappella/A Cappella-Prefix.pch";
-				INFOPLIST_FILE = "A Cappella/A Cappella-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "A Cappella/Calculasian-Prefix.pch";
+				INFOPLIST_FILE = "A Cappella/Calculasian-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Calculasian;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		FF611E2019A69B0300987EB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14FBD0BE24454965982CAA3E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "A Cappella/A Cappella-Prefix.pch";
-				INFOPLIST_FILE = "A Cappella/A Cappella-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "A Cappella/Calculasian-Prefix.pch";
+				INFOPLIST_FILE = "A Cappella/Calculasian-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Calculasian;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +554,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "A CappellaTests/A CappellaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "A CappellaTests/CalculasianTests-Info.plist";
+				PRODUCT_NAME = CalculasianTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +572,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "A Cappella/A Cappella-Prefix.pch";
-				INFOPLIST_FILE = "A CappellaTests/A CappellaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "A CappellaTests/CalculasianTests-Info.plist";
+				PRODUCT_NAME = CalculasianTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF611DE719A69B0300987EB1 /* Build configuration list for PBXProject "A Cappella" */ = {
+		FF611DE719A69B0300987EB1 /* Build configuration list for PBXProject "Calculasian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF611E1C19A69B0300987EB1 /* Debug */,
@@ -450,21 +591,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF611E1E19A69B0300987EB1 /* Build configuration list for PBXNativeTarget "A Cappella" */ = {
+		FF611E1E19A69B0300987EB1 /* Build configuration list for PBXNativeTarget "Calculasian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF611E1F19A69B0300987EB1 /* Debug */,
 				FF611E2019A69B0300987EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FF611E2119A69B0300987EB1 /* Build configuration list for PBXNativeTarget "A CappellaTests" */ = {
+		FF611E2119A69B0300987EB1 /* Build configuration list for PBXNativeTarget "CalculasianTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF611E2219A69B0300987EB1 /* Debug */,
 				FF611E2319A69B0300987EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
