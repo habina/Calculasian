@@ -18,9 +18,7 @@
 
 
 @implementation DSViewController
-@synthesize sideMenu, bgView;
-UITapGestureRecognizer *tap;
-UIImageView *layerView;
+@synthesize sideMenu, bgView, tap, layerView, layerOpen;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,6 +37,7 @@ UIImageView *layerView;
 //    self.videoIdentifierTextField.text = @"V9ix0GCNlS8";
 //    self.videoIdentifierTextField.delegate = self;
     self.title = @"Simple Side Menu";
+    layerOpen = NO;
     self.navigationController.navigationBarHidden = YES;
     bgView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"backGround.jpg"]];
     bgView.frame = [UIScreen mainScreen].bounds;
@@ -184,7 +183,14 @@ UIImageView *layerView;
 
 -(void)a1TapDetected{
     NSLog(@"single Tap on imageview");
-    [layerView removeFromSuperview];
+    if (layerOpen){
+        [layerView removeFromSuperview];
+        layerOpen = NO;
+        return;
+    }else{
+        layerOpen = YES;
+    }
+    [layerView setUserInteractionEnabled:YES];
     layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
     [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
     [layerView.layer setBorderWidth: 2.0];
@@ -199,19 +205,18 @@ UIImageView *layerView;
     label.textAlignment = NSTextAlignmentCenter;
     label.backgroundColor = [UIColor whiteColor];
     label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
-    [layerView addSubview:label];
     [self.view addSubview:layerView];
-    tap = [[UITapGestureRecognizer alloc]
-           initWithTarget:self
-           action:@selector(tapChangeImage)];
-    
-    [self.view addGestureRecognizer:tap];
-}
--(void)tapChangeImage{
-    [layerView removeFromSuperview];
+    [layerView addSubview:label];
 }
 -(void)a2TapDetected{
     NSLog(@"single Tap on imageview");
+    if (layerOpen){
+        [layerView removeFromSuperview];
+        layerOpen = NO;
+        return;
+    }else{
+        layerOpen = YES;
+    }
     [layerView removeFromSuperview];
     layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
     [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
@@ -229,15 +234,17 @@ UIImageView *layerView;
     label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
     [layerView addSubview:label];
     [self.view addSubview:layerView];
-    tap = [[UITapGestureRecognizer alloc]
-           initWithTarget:self
-           action:@selector(tapChangeImage)];
-    
-    [self.view addGestureRecognizer:tap];
 }
 
 -(void)a3TapDetected{
     NSLog(@"single Tap on imageview");
+    if (layerOpen){
+        [layerView removeFromSuperview];
+        layerOpen = NO;
+        return;
+    }else{
+        layerOpen = YES;
+    }
     [layerView removeFromSuperview];
     layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
     [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
@@ -255,15 +262,17 @@ UIImageView *layerView;
     label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
     [layerView addSubview:label];
     [self.view addSubview:layerView];
-    tap = [[UITapGestureRecognizer alloc]
-           initWithTarget:self
-           action:@selector(tapChangeImage)];
-    
-    [self.view addGestureRecognizer:tap];
 }
 
 -(void)a4TapDetected{
     NSLog(@"single Tap on imageview");
+    if (layerOpen){
+        [layerView removeFromSuperview];
+        layerOpen = NO;
+        return;
+    }else{
+        layerOpen = YES;
+    }
     [layerView removeFromSuperview];
     layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
     [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
@@ -281,15 +290,17 @@ UIImageView *layerView;
     label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
     [layerView addSubview:label];
     [self.view addSubview:layerView];
-    tap = [[UITapGestureRecognizer alloc]
-           initWithTarget:self
-           action:@selector(tapChangeImage)];
-    
-    [self.view addGestureRecognizer:tap];
 }
 
 -(void)a5TapDetected{
     NSLog(@"single Tap on imageview");
+    if (layerOpen){
+        [layerView removeFromSuperview];
+        layerOpen = NO;
+        return;
+    }else{
+        layerOpen = YES;
+    }
     [layerView removeFromSuperview];
     layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
     [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
@@ -307,15 +318,17 @@ UIImageView *layerView;
     label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
     [layerView addSubview:label];
     [self.view addSubview:layerView];
-    tap = [[UITapGestureRecognizer alloc]
-           initWithTarget:self
-           action:@selector(tapChangeImage)];
-    
-    [self.view addGestureRecognizer:tap];
 }
 
 -(void)a6TapDetected{
     NSLog(@"single Tap on imageview");
+    if (layerOpen){
+        [layerView removeFromSuperview];
+        layerOpen = NO;
+        return;
+    }else{
+        layerOpen = YES;
+    }
     [layerView removeFromSuperview];
     layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
     [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
@@ -333,11 +346,6 @@ UIImageView *layerView;
     label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
     [layerView addSubview:label];
     [self.view addSubview:layerView];
-    tap = [[UITapGestureRecognizer alloc]
-           initWithTarget:self
-           action:@selector(tapChangeImage)];
-    
-    [self.view addGestureRecognizer:tap];
 }
 
 

@@ -10,4 +10,9 @@
 
 @interface DSViewController : UIViewController <UITextFieldDelegate>
 @property(nonatomic,retain) UIImageView *bgView;
+@property(nonatomic,retain) UITapGestureRecognizer *tap;
+@property(nonatomic,retain) UIImageView *layerView;
+@property(nonatomic) BOOL layerOpen;
+
+
 @end

@@ -316,6 +316,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = CDS;
 				TargetAttributes = {
+					FF611DEB19A69B0300987EB1 = {
+						DevelopmentTeam = U9Q7HQ65D8;
+					};
 					FF611E0C19A69B0300987EB1 = {
 						TestTargetID = FF611DEB19A69B0300987EB1;
 					};

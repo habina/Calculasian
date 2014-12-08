@@ -44,7 +44,8 @@
     UIImageView *screenShotView;
     
 }
-
+@property(nonatomic) BOOL imgViewActived;
+@property(nonatomic,retain) UIImageView *layerViews;
 @property (nonatomic, retain) BTSimpleMenuItem *selectedItem;
 @property(nonatomic, weak) id <BTSimpleSideMenuDelegate> delegate;
 
