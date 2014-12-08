@@ -5,7 +5,7 @@
 //  Copyright (c) 2014 Balram Tiwari. All rights reserved.
 //
 
-#define BACKGROUND_COLOR [UIColor colorWithWhite:1 alpha:0.2]
+#define BACKGROUND_COLOR [UIColor colorWithWhite:1 alpha:0.7]
 #define GENERIC_IMAGE_FRAME CGRectMake(0, 0, 40, 40)
 #define MENU_WIDTH 175
 

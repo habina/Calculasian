@@ -19,6 +19,8 @@
 
 @implementation DSViewController
 @synthesize sideMenu, bgView;
+UITapGestureRecognizer *tap;
+UIImageView *layerView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -179,64 +181,163 @@
 
 }
 
+
 -(void)a1TapDetected{
     NSLog(@"single Tap on imageview");
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"CHEN CHEN 陈晨"
-                                                    message:@"ALTO/VP"
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles:nil];
-    [alert show];
+    [layerView removeFromSuperview];
+    layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
+    [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [layerView.layer setBorderWidth: 2.0];
+    [layerView setAlpha:1];
+    UIImage *image = [UIImage imageNamed: @"chenchen.jpg"];
+    [layerView setImage:image];
+    UILabel *label=[ [UILabel alloc] initWithFrame:CGRectMake(0,220,self.view.frame.size.width,60)];
+    [label.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [label.layer setBorderWidth: 2.0];
+    label.text=@"Chen Chen 陈晨\nSoprano/VP";
+    label.numberOfLines = 0;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.backgroundColor = [UIColor whiteColor];
+    label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
+    [layerView addSubview:label];
+    [self.view addSubview:layerView];
+    tap = [[UITapGestureRecognizer alloc]
+           initWithTarget:self
+           action:@selector(tapChangeImage)];
+    
+    [self.view addGestureRecognizer:tap];
 }
-
+-(void)tapChangeImage{
+    [layerView removeFromSuperview];
+}
 -(void)a2TapDetected{
     NSLog(@"single Tap on imageview");
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ZIMING LI 黎子明"
-                                                    message:@"TENOR/VP/MUSIC MANAGER"
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles:nil];
-    [alert show];
+    [layerView removeFromSuperview];
+    layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
+    [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [layerView.layer setBorderWidth: 2.0];
+    [layerView setAlpha:1];
+    UIImage *image = [UIImage imageNamed: @"li.jpg"];
+    [layerView setImage:image];
+    UILabel *label=[ [UILabel alloc] initWithFrame:CGRectMake(0,220,self.view.frame.size.width,60)];
+    [label.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [label.layer setBorderWidth: 2.0];
+    label.text=@"ZIMING LI 黎子明\nTENOR/VP/MUSIC MANAGER";
+    label.numberOfLines = 0;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.backgroundColor = [UIColor whiteColor];
+    label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
+    [layerView addSubview:label];
+    [self.view addSubview:layerView];
+    tap = [[UITapGestureRecognizer alloc]
+           initWithTarget:self
+           action:@selector(tapChangeImage)];
+    
+    [self.view addGestureRecognizer:tap];
 }
 
 -(void)a3TapDetected{
     NSLog(@"single Tap on imageview");
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"XU CHEN 陈序"
-                                                    message:@"BARITONE"
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles:nil];
-    [alert show];
+    [layerView removeFromSuperview];
+    layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
+    [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [layerView.layer setBorderWidth: 2.0];
+    [layerView setAlpha:1];
+    UIImage *image = [UIImage imageNamed: @"chen.jpg"];
+    [layerView setImage:image];
+    UILabel *label=[ [UILabel alloc] initWithFrame:CGRectMake(0,220,self.view.frame.size.width,60)];
+    [label.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [label.layer setBorderWidth: 2.0];
+    label.text=@"XU CHEN 陈序\nBARITONE";
+    label.numberOfLines = 0;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.backgroundColor = [UIColor whiteColor];
+    label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
+    [layerView addSubview:label];
+    [self.view addSubview:layerView];
+    tap = [[UITapGestureRecognizer alloc]
+           initWithTarget:self
+           action:@selector(tapChangeImage)];
+    
+    [self.view addGestureRecognizer:tap];
 }
 
 -(void)a4TapDetected{
     NSLog(@"single Tap on imageview");
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"BOB WANG 王天意"
-                                                    message:@"BASS/VP"
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles:nil];
-    [alert show];
+    [layerView removeFromSuperview];
+    layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
+    [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [layerView.layer setBorderWidth: 2.0];
+    [layerView setAlpha:1];
+    UIImage *image = [UIImage imageNamed: @"wang.jpg"];
+    [layerView setImage:image];
+    UILabel *label=[ [UILabel alloc] initWithFrame:CGRectMake(0,220,self.view.frame.size.width,60)];
+    [label.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [label.layer setBorderWidth: 2.0];
+    label.text=@"BOB WANG 王天意\nBASS/VP";
+    label.numberOfLines = 0;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.backgroundColor = [UIColor whiteColor];
+    label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
+    [layerView addSubview:label];
+    [self.view addSubview:layerView];
+    tap = [[UITapGestureRecognizer alloc]
+           initWithTarget:self
+           action:@selector(tapChangeImage)];
+    
+    [self.view addGestureRecognizer:tap];
 }
 
 -(void)a5TapDetected{
     NSLog(@"single Tap on imageview");
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"DAVID LU 卢烨"
-                                                    message:@"BASS"
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles:nil];
-    [alert show];
+    [layerView removeFromSuperview];
+    layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
+    [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [layerView.layer setBorderWidth: 2.0];
+    [layerView setAlpha:1];
+    UIImage *image = [UIImage imageNamed: @"lu.jpg"];
+    [layerView setImage:image];
+    UILabel *label=[ [UILabel alloc] initWithFrame:CGRectMake(0,220,self.view.frame.size.width,60)];
+    [label.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [label.layer setBorderWidth: 2.0];
+    label.text=@"DAVID LU 卢烨\nBASS";
+    label.numberOfLines = 0;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.backgroundColor = [UIColor whiteColor];
+    label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
+    [layerView addSubview:label];
+    [self.view addSubview:layerView];
+    tap = [[UITapGestureRecognizer alloc]
+           initWithTarget:self
+           action:@selector(tapChangeImage)];
+    
+    [self.view addGestureRecognizer:tap];
 }
 
 -(void)a6TapDetected{
     NSLog(@"single Tap on imageview");
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ZHIYAO HE 何知遥"
-                                                    message:@"SOPRANO"
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles:nil];
-    [alert show];
+    [layerView removeFromSuperview];
+    layerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 220)];
+    [layerView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [layerView.layer setBorderWidth: 2.0];
+    [layerView setAlpha:1];
+    UIImage *image = [UIImage imageNamed: @"he.jpg"];
+    [layerView setImage:image];
+    UILabel *label=[ [UILabel alloc] initWithFrame:CGRectMake(0,220,self.view.frame.size.width,60)];
+    [label.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [label.layer setBorderWidth: 2.0];
+    label.text=@"ZHIYAO HE 何知遥\nSOPRANO";
+    label.numberOfLines = 0;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.backgroundColor = [UIColor whiteColor];
+    label.font=[UIFont fontWithName:@"Helvetica" size:20.0 ];
+    [layerView addSubview:label];
+    [self.view addSubview:layerView];
+    tap = [[UITapGestureRecognizer alloc]
+           initWithTarget:self
+           action:@selector(tapChangeImage)];
+    
+    [self.view addGestureRecognizer:tap];
 }
 
 
